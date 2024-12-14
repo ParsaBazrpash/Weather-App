@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background: linear-gradient(to bottom, #00065d, #395eff);
+  background-size: cover; /* Prevents the gradient from repeating */
+  height: 100vh; /* Full viewport height */
+}
